@@ -1,0 +1,376 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+body{
+	width: 100%;
+	height: auto;
+	overflow-x: hidden;
+}
+header{
+	width: 100%;
+	height: 50px;
+	color: #FFFFFF;
+}
+nav {
+	width: 100%;
+	height: 50px;
+	border-bottom: 1px solid #e8e8e8;
+	margin-bottom: 0px;
+	
+}
+nav  div.menu ul{
+	list-style: none;
+	text-align: center;
+}
+ nav div.menu ul li{
+	cursor: pointer;
+	
+
+}
+ nav  div.menu ul li a{
+ 	padding: 12px 15px;
+ 	text-decoration: none;
+ 	font-size: 15px;
+	color: #0088cc;
+	font-family: 'Lato', sans-serif;
+	 font-weight: 400; 
+}
+nav div.menu ul li a#home{
+	border-bottom: 3px solid #0088cc;
+	margin-bottom: 0px;
+}
+nav div.menu ul li a:hover{
+	border-bottom: 3px solid #0088cc;
+	
+}
+div.lienket a img{
+	margin-right: 5px;
+}
+.lienket a{
+	text-decoration: none;
+	padding: 12px 15px;
+	
+}
+.lienket a:hover{
+	border-bottom: 3px solid #0088cc;
+}
+section{
+	margin-top: 40px;
+
+}
+div.phandau_anh{
+	
+	 text-align: center;  
+	padding-right: 165px;
+}
+div.phandau_anh #telegram{
+	margin-top: 20px;
+
+}
+p#chu_anh{
+	font-family: 'Lato', sans-serif;
+	color: #8c8c8c;
+	font-size: 20px;
+	/* font-weight: bold; */
+	width: 285px;
+	margin-left: -70px;
+	 /* text-align: center;  */
+}
+
+div.vien_td{
+	border-left: 5px solid #0088cc;
+}
+div.vien_td a#recent{
+	font-size: 16px;
+	font-weight: bold;
+	/* margin-bottom: 15px; */
+}
+ p.dam_chu{
+	font-weight: bold;
+	font-size: 14px;
+}
+.doan1,.doan2,.doan3{
+	margin-top: 10px;
+	width: 141px;
+}
+
+.doan1 >a,.doan2 >a,.doan3 >a{
+	margin-top: 0px;
+	font-size: 12px;
+	color: #0088cc;
+	
+}
+div.sanpham{
+	margin-top: 5px;
+	text-align: center;
+	margin-bottom: 80px; 
+}
+div.sanpham div.tuongthich a{
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	text-decoration: none;
+}
+ div.tuongthich:hover {
+	border-bottom: 3px solid #0088cc;
+}
+div.sanpham1{
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	margin-bottom: 50px;
+	/* margin-top: 80px; */
+		
+	
+}
+div.sanpham1_anh,div.sanpham2_anh{
+	display: inline-block;
+	/* text-decoration: none; */
+}
+div.sanpham1_anh:hover,div.sanpham2_anh:hover{
+	border-bottom: 3px solid #0088cc;
+}
+div.sanpham1 h3{
+	margin-bottom: 30px;
+	
+}
+div.sanpham1_anh a > p{
+	margin-top: 20px;
+}
+div.sanpham1_anh a,div.sanpham2_anh a{
+	text-decoration: none;
+}
+
+div.gioithieu {
+	font-family: 'Lato', sans-serif;
+	 text-align: center;
+}
+div.gioithieu >h3{
+	margin-bottom: 15px;
+	font-weight: 500;
+	font-family: 'Lato', sans-serif;
+	font-size: 25px;
+}
+div.gioithieu_td h3{
+	color: #A19679;
+}
+div.gioithieu_td p{
+	margin-left: 40px;
+	font-size: 17px;
+	width: 260px;
+}
+div.noidung {
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	font-size: 18px; 
+	margin-top: 70px;
+	margin-bottom: 75px;
+}
+div.noidung >h3{
+	margin-bottom: 37px;
+	font-weight: 500;
+	font-family: 'Lato', sans-serif;
+	font-size: 25px;
+}
+div.footer_nd{
+	width: 100%;
+	
+	margin-bottom: 40px;
+}
+div.vien{
+	border-top: 1px solid #e8e8e8;
+	width: 1080px;
+	text-align: center;
+	margin-left: 140px;
+}
+div.footer_nd div.footer_nd1 h5{
+	font-size: 15px;
+	color: #333333;
+}
+div.footer_nd1{
+	margin-top: 30px;
+	padding-left: 100px; 
+}
+div.footer_nd div.footer_nd1 p{
+	font-size: 13px;
+	color: #333333;
+	width: 240px;
+}
+div.footer_nd2{
+	margin-top: 30px;
+}
+div.footer_nd2 h5>a{
+	color: #333333;
+	font-size: 15px;
+}
+div.footer_nd2 ul{
+	list-style: none;
+	/* text-align: center; */
+}
+div.footer_nd2 ul li{
+	
+}
+div.footer_nd2 ul li a{
+	font-family: 'Lato', sans-serif;
+	 font-weight: 500; 
+	display: block;
+	color: #0088cc;
+	font-size: 16px;
+}
+div.footer_nd21{
+	padding-left: 50px;
+}
+div.footer_menu{
+	display: none;
+}
+@media only screen and (max-width:576px){
+	*{
+		margin: 0;
+		padding: 0;
+	}
+
+	div.lienket {
+		padding-left:340px;
+		
+	}
+	div.sanpham{
+	margin-top:60px;
+	
+	}
+	div.sanpham .tuongthich{
+	display: inline-table;
+	margin-bottom:20px;
+	/* border-bottom: 1px solid white; */
+	}
+	div.sanpham div.tuongthich:hover{
+		border-bottom: 3px solid white;
+	}
+	div.sanpham .tuongthich #tuongthich_anh1{
+		padding-left:50px;
+
+	}
+	div.sanpham .tuongthich #tuongthich_anh2{
+		padding-left:20px;
+
+	}
+	div.sanpham .tuongthich #tuongthich_anh3{
+		padding-left:70px;
+
+	}
+	
+	div.sanpham div.tuongthich a{
+		font-family: 'Lato', sans-serif;
+		font-size: 16px;
+		text-decoration: none;
+	}
+	div.sanpham1_anh a p,div.sanpham2_anh a p{
+		text-decoration: none;
+	}
+	div.sanpham1_anh >a:hover,div.sanpham2_anh >a:hover{
+	border-bottom: 3px solid white;
+}
+	div.gioithieu {
+	font-family: 'Lato', sans-serif;
+	/* margin-top: 10px; */
+	 width:483px;
+	}
+	div.gioithieu h3{
+		margin-top: 10px;
+		margin-bottom: 15px;
+		font-size: 23px;
+
+	}
+	div.gioithieu_td{
+		 text-align: center;
+		display:inline-table;
+		margin-left:70px;
+		margin-top:40px;
+	}
+	div.gioithieu_td h3{
+		color: #A19679;
+	}
+	div.gioithieu_td p{
+		margin-left: 40px;
+		font-size: 17px;
+		width: 260px;
+		height: 46px;
+	}
+	div.anhdau{
+/* 		display: flex; */
+	}
+	div.phandau_anh{
+	
+	 text-align: center;  
+	padding-right: 165px;
+	padding-bottom: 30px;
+	padding-left:-100px;
+	margin-top:420px;
+	}
+	div.phandau_anh #telegram{
+		margin-top: 20px;
+
+	}
+	div.vien_td{
+		
+		height:290px;
+	border-left: 5px solid #0088cc;
+	margin-left: -380px;
+
+	}
+	div.vien_td a#recent{
+		font-size: 16px;
+		font-weight: bold;
+		/* margin-bottom: 15px; */
+	}
+	.footer_nd1,.footer_nd2{
+		margin-left:0px;
+		display:inline-block;
+
+	}
+	div.vien{
+		margin-left: -300px;
+		flex-grow: 1;
+	}
+	.doan1,.doan2,.doan3{
+	margin-top: 10px;
+	width: 440px;
+	}
+
+	.doan1 >a,.doan2 >a,.doan3 >a{
+		margin-top: 0px;
+		font-size: 15px;
+		color: #0088cc;
+		
+	}
+	footer{
+		height:50px;
+	}
+	.footer_nd1{
+		margin-left:30px;
+	}
+	.footer_nd2{
+/* 		display:inline; */
+		margin-left:100px;
+	}
+	.footer_nd1,.footer_nd2{
+		display:none;
+	}
+	.footer_menu{
+
+		display:block;
+	}
+	.footer_menu ul{
+		text-align: center;
+		list-style: none;
+	}
+	.footer_menu ul li{
+		display: inline-block;
+
+	}
+	.footer_menu ul li a{
+		color: #0088cc;
+		text-decoration: none;
+		font-size: 14px;
+		padding: 10px 15px;
+	}
+}
